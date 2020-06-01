@@ -1,0 +1,28 @@
+header{
+  position: relative;
+	height: 40vh;
+  background-image: url(../guam.jpg);
+  background-position:center bottom 270px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.socialBtn {
+	/* text-align: right; */
+	margin-right: 10px;
+  /* float: right; */
+  position: absolute;
+  right: 0;
+}
+.socialBtn li{
+  display: inline;
+  margin-right: 0px;
+}
+.socialBtn li.last {
+	margin-right: 0;
+}
+.socialBtn img{
+  width:35px;
+
+}
